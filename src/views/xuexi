@@ -1,0 +1,38 @@
+数组函数类构造函数数组解构对象解构遍历
+vue框架组件模块化开发
+动态组件:is
+异步组件defineAsyncComponent
+渲染函数render
+自定指令directives
+mixins整理组件
+共享状态provide,inject
+自动方式computed
+监听方式wacth
+点击方式methods
+动态属性:
+双向绑定v-model
+插槽slot
+生命周期beforeCreate,created,beforeMount,mounted,beforeUpdata,updated,beforeUnmount,unmounted
+下层组件props，emits，event
+setup(props, { attrs, slots, emit, expose }) {ref, toRefs, reactive ,onMounted等生命周期}
+vuex.js状态管理
+state状态数据
+getters处理状态(state, getters, rootState, rootGetters) => (x)或者函数形式
+mutations状态方式(state, x)
+actions异步方式({dispatch, commit, getters, rootGetters, state, rootState}, x)
+modules下层状态
+组件调用createNamespacedHelpers
+computed属性使用...mapState({'x'}),...mapGetters({'x'})
+methods属性使用...mapMutations({'x'}),...mapActions({'x'})
+router路由管理
+导航守卫router.beforeEach((to, from, next)
+滚动行为scrollBehavior(to, from, savedPosition)
+独享守卫beforeEnter: (to, from)
+重新定向redirect
+动态路由component: ()
+正则方式path: '/:pathMatch(.*)*'
+组件守卫beforeRouteEnter(to, from, next)
+router.push
+router.replace
+route.params
+params可变化为props
